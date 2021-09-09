@@ -11,12 +11,14 @@ main{
 
 .container{
     height: 100vh;
+    width: 100%;
 }
 
 .centercontent{
-    text-align: center;
-    vertical-align: middle;
-    transform: translate(0, 20%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 .text{
@@ -55,8 +57,10 @@ main{
 
 .green{
     background-color: green;
+    position: relative;
 }
 
 .yellow{
     background-color: yellow;
+    position: relative;
 }
