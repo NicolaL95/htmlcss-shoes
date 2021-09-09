@@ -11,9 +11,12 @@ main{
 
 .container{
     height: 100vh;
-    text-align: center;
 }
 
+.centercontent{
+    text-align: center;
+    vertical-align: middle;
+}
 
 .text{
   font-family: 'Rubik Mono One', sans-serif;
