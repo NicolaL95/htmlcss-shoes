@@ -11,10 +11,41 @@ main{
 
 .container{
     height: 100vh;
+    text-align: center;
 }
+
+
+.text{
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 3.5rem;
+  color: yellow;
+}
+
+.tgreen{
+   color: green;
+}
+
+.container_mark{
+    position: absolute;
+    right: 0;
+    top: 0;
+      margin-top: 50px;
+      margin-right: 20px;
+      cursor: pointer;
+}
+
+.marker{
+    background: white;
+    border-radius: 50%;
+  font-family: 'Rubik Mono One', sans-serif;
+  margin-left: 20px;
+  padding: 10px 15px;
+}
+
 
 .red{
     background-color: red;
+    position: relative;
    
 }
 
